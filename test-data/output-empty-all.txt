@@ -1,0 +1,15 @@
+SUCCESS  # <- GT4500
+SUCCESS  # Shot
+SUCCESS  # Shot
+SUCCESS  # Shot
+SUCCESS  # Shot
+SUCCESS  # Shot
+FAIL     # Ran out of ammo
+
+SUCCESS  # <- GT4500
+SUCCESS  # Shot
+SUCCESS  # Shot
+SUCCESS  # Shot
+SUCCESS  # Shot
+SUCCESS  # Shot
+FAIL     # Ran out of ammo
