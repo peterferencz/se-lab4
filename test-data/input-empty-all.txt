@@ -1,0 +1,8 @@
+# Test failure of running out of torpedos, firing all
+GT4500,5,0,0,0  # Only the primary is loaded, secondary empty
+TORPEDO,ALL # Use up all ammo
+TORPEDO,ALL # Use up all ammo
+TORPEDO,ALL # Use up all ammo
+TORPEDO,ALL # Use up all ammo
+TORPEDO,ALL # Use up all ammo
+TORPEDO,ALL # Out of ammo

@@ -1,0 +1,8 @@
+# Create a ship that cannot fire due to 100% fail rate
+GT4500,5,1,0,0  # Only the primary is loaded
+TORPEDO,SINGLE
+TORPEDO,ALL
+
+GT4500,0,0,5,1  # Only the secondary is loaded
+TORPEDO,SINGLE
+TORPEDO,ALL

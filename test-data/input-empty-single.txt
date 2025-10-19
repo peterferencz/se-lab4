@@ -1,0 +1,18 @@
+# Test failure of running out of torpedos, firing single shots
+GT4500,5,0,0,0  # Only the primary is loaded, secondary empty
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Should fail
+
+
+# Test is symmetrical with secondary
+GT4500,0,0,5,0  # Only the primary is loaded, secondary empty
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Use up all of primary
+TORPEDO,SINGLE  # Should fail
